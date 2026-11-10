@@ -4,7 +4,7 @@ using Comfort.Common;
 using Systems.Effects;
 using UnityEngine;
 
-namespace ColoredSmokeGrenades;
+namespace ArenaGearClient;
 
 internal static class SmokeTint
 {
@@ -24,14 +24,14 @@ internal static class SmokeTint
 
     private static readonly Dictionary<string, Color[]> Looks = new()
     {
-        ["6ae9ca7d0d8ec191f922a28b"] = new[]
+        ["670fa9618f83118aed06c89b"] = new[]
         {
             new Color(1f, 1f, 1f, 1f),
-            new Color(0.85f, 0.85f, 0.55f, 0.66f),
+            new Color(0.74f, 0.74f, 0.44f, 1f),
             new Color(1f, 0.5f, 0f, 1f),
-            new Color(0.39f, 0.39f, 0.24f, 0.77f),
-            new Color(0.15f, 0.15f, 0.12f, 1f),
-            new Color(0f, 0f, 0f, 0f),
+            new Color(0.5f, 0.5f, 0.3f, 0.77f),
+            new Color(1f, 1f, 1f, 1f),
+            new Color(0.1f, 0.1f, 0.1f, 0.1f),
         },
     };
 

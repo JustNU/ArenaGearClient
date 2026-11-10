@@ -1,10 +1,10 @@
 using BepInEx;
-using ColoredSmokeGrenades.Patches;
+using ArenaGearClient.Patches;
 
-namespace ColoredSmokeGrenades;
+namespace ArenaGearClient;
 
-[BepInPlugin("com.sage.coloredsmokegrenades", "Colored Smoke Grenades", "1.0.0")]
-public class ColoredSmokePlugin : BaseUnityPlugin
+[BepInPlugin("com.sage.ArenaGearClient", "Client Part Of Arena Gear", "1.0.0")]
+public class ArenaGearClientPlugin : BaseUnityPlugin
 {
     private void Awake()
     {

@@ -6,7 +6,7 @@ using EFT.SynchronizableObjects;
 using HarmonyLib;
 using SPT.Reflection.Patching;
 
-namespace ColoredSmokeGrenades.Patches;
+namespace ArenaGearClient.Patches;
 
 internal class Patch_BaseGrenadeHandsController_Cook : ModulePatch
 {
